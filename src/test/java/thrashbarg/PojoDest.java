@@ -1,22 +1,52 @@
 package thrashbarg;
 
 public class PojoDest {
-    private int x1;
-    private int y;
 
-    public Integer getX1() {
-        return x1;
+    private int getterSetterOnSourceAndDest;
+    private int getterOnSourceAndDest;
+    private int setterOnSourceAndDest;
+    private int getterOnSourceSetterOnDest;
+    private int setterOnSourceGetterOnDest;
+    private int uniqueNameOnDest;
+    private String differentTypeOnDest;
+
+    public int getGetterSetterOnSourceAndDest() {
+        return getterSetterOnSourceAndDest;
     }
 
-    public void setX1(int x) {
-        this.x1 = x;
+    public void setGetterSetterOnSourceAndDest(Integer getterSetterOnSourceAndDest) {
+        this.getterSetterOnSourceAndDest = getterSetterOnSourceAndDest;
     }
 
-    public int getY() {
-        return y;
+    public Integer getUniqueNameOnDest() {
+        return uniqueNameOnDest;
     }
 
-    public void setY(Integer y) {
-        this.y = y;
+    public void setUniqueNameOnDest(int x) {
+        this.uniqueNameOnDest = x;
+    }
+
+    public int getGetterOnSourceAndDest() {
+        return getterOnSourceAndDest;
+    }
+
+    public void setSetterOnSourceAndDest(int setterOnSourceAndDest) {
+        this.setterOnSourceAndDest = setterOnSourceAndDest;
+    }
+
+    public void setGetterOnSourceSetterOnDest(int getterOnSourceSetterOnDest) {
+        this.getterOnSourceSetterOnDest = getterOnSourceSetterOnDest;
+    }
+
+    public int getSetterOnSourceGetterOnDest() {
+        return setterOnSourceGetterOnDest;
+    }
+
+    public String getDifferentTypeOnDest() {
+        return differentTypeOnDest;
+    }
+
+    public void setDifferentTypeOnDest(String differentTypeOnDest) {
+        this.differentTypeOnDest = differentTypeOnDest;
     }
 }
