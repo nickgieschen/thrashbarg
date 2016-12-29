@@ -36,6 +36,7 @@ dependencies {
     testCompile "org.jetbrains.spek:spek-api:$spek_version"
     testCompile "com.natpryce:hamkrest:1.2.3.0"
     testRuntime "org.jetbrains.spek:spek-junit-platform-engine:$spek_version"
+    testCompile "net.sf.dozer:dozer:5.5.1"
 }
 
 sourceSets {
